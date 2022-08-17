@@ -1,0 +1,54 @@
+.container{
+    background-color: hsl(218, 23%, 16%);
+    height:97vh;
+    /* width:100vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(217, 19%, 24%);
+    width: 500px;
+    min-width: 300px;
+    height: 350px;
+    position: relative;
+    border-radius:20px;
+}
+
+.title{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top:30px;
+    color:aquamarine
+}
+
+.text{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana;
+    padding-top:30px;
+    margin: 10px;
+    font-size: 1.8em;
+    color: white;
+}
+
+.btn{
+    background-color: rgb(82,255,168);
+    color: rgb(197, 13, 13);
+    border:2px solid rgb(82,255,168);
+    border-radius: 4px;
+    padding:10px;
+    margin:15px;
+    /* box-shadow: hsl(150deg 100% 66%) 0px 0px 36px; */
+    
+    cursor: pointer;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: hsl(150deg 100% 66%) 0px 0px 36px;
+    color: black;
+  }
